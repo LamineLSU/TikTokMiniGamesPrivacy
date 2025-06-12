@@ -1,4 +1,4 @@
-# TikTokPrivacyCostofFun
+# The Privacy Cost of Fun: A Measurement Study of User Data Exposure in TikTok Mini-Games
 
 ## Android App Traffic Analysis with Burp Suite
 ```
