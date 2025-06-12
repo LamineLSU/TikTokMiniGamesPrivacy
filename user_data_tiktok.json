@@ -1,0 +1,339 @@
+{
+  "Ads and data": {
+    "Ad Interests": {
+      "AdInterestCategories": ""
+    },
+    "Instant Form Ads Responses": {
+      "ResponsesList": null
+    },
+    "Off TikTok Activity": {
+      "OffTikTokActivityDataList": null
+    }
+  },
+  "App Settings": {
+    "Block List": {
+      "App": 1,
+      "BlockList": null
+    },
+    "Settings": {
+      "App": 1,
+      "SettingsMap": {
+        "Allow DownLoad": "Everyone",
+        "Allow Others to Find Me": "Disabled",
+        "App Language": "",
+        "Content Preferences": {
+          "Keyword filters for videos in Following feed": null,
+          "Keyword filters for videos in For You feed": null,
+          "Video Languages Preferences": null
+        },
+        "Family Content Preferences": {},
+        "Filter Comments": "Enabled",
+        "Interests": "",
+        "Private Account": "Disabled",
+        "Push Notification": {
+          "Desktop notification": "Default",
+          "New Comments on My Video": "Default",
+          "New Fans": "Default",
+          "New Likes on My Video": "Default"
+        },
+        "Suggest your account to Facebook friends": "enabled",
+        "Suggest your account to contacts": "enabled",
+        "Suggest your account to people who open or send links to you": "enabled",
+        "Web Language": "N/A",
+        "Who Can Duet With Me": "Everyone",
+        "Who Can Post Comments": "Everyone",
+        "Who Can Send Me Message": "Friends",
+        "Who Can Stitch with your videos": "Everyone",
+        "Who Can View Videos I Liked": "Myself"
+      }
+    }
+  },
+  "Comment": {
+    "Comments": {
+      "App": 1,
+      "CommentsList": null
+    }
+  },
+  "Direct Message": {
+    "Direct Messages": {
+      "ChatHistory": {}
+    }
+  },
+  "Income Plus Wallet Transactions": {
+    "Transaction History": {
+      "TransactionsList": null
+    }
+  },
+  "Location Review": {
+    "Location Reviews": {
+      "ReviewsList": null
+    }
+  },
+  "Post": {
+    "Posts": {
+      "VideoList": null
+    },
+    "Recently Deleted Posts": {
+      "PostList": null
+    }
+  },
+  "Profile": {
+    "AI-Moji": {
+      "CreateDate": "",
+      "AIMojiList": null
+    },
+    "Autofill": {
+      "PhoneNumber": "N/A",
+      "Email": "N/A",
+      "FirstName": "N/A",
+      "LastName": "N/A",
+      "Address": "N/A",
+      "ZipCode": "N/A",
+      "Unit": "N/A",
+      "City": "N/A",
+      "State": "N/A",
+      "Country": "N/A"
+    },
+    "Profile Info": {
+      "App": 1,
+      "ProfileMap": {
+        "PlatformInfo": [],
+        "bioDescription": "",
+        "birthDate": "17-Dec-20xx",
+        "emailAddress": "appxxx@gmail.com",
+        "likesReceived": "None",
+        "profilePhoto": "https://p16-common-sign-va.tiktokcdn-us.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:1080:1080.webp?dr=9640&refresh_token=8f44e71f&x-expires=1741633200&x-signature=MOtMtsA7TZ68CbJ%2BtbqEpJC92H8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=5adb2174&idc=useast5",
+        "profileVideo": "None",
+        "telephoneNumber": "None",
+        "userName": "user"
+      }
+    }
+  },
+  "TikTok Shop": {
+    "Communication With Shops": {
+      "CommunicationHistories": null
+    },
+    "Current Payment Information": {
+      "PayCard": null
+    },
+    "Customer Support History": {
+      "CustomerSupportHistories": null
+    },
+    "Order Dispute History": {
+      "OrderDisputeHistories": null
+    },
+    "Order History": {
+      "OrderHistories": null
+    },
+    "Product Browsing History": {
+      "ProductBrowsingHistories": null
+    },
+    "Product Reviews": {
+      "ProductReviewHistories": null
+    },
+    "Returns and Refunds History": {
+      "ReturnAndRefundHistories": null
+    },
+    "Saved Address Information": {
+      "SavedAddress": null
+    },
+    "Shopping Cart List": {
+      "ShoppingCart": null
+    },
+    "Vouchers": {
+      "Vouchers": null
+    }
+  },
+  "Tiktok Live": {
+    "Go Live History": {
+      "GoLiveList": null
+    },
+    "Go Live Settings": {
+      "SettingsMap": {
+        "Allow agencies to find and invite you": "N/A",
+        "Allow others to invite you to co-host in LIVE": "On",
+        "Allow people to send and receive comments during your LIVE": "N/A",
+        "Allow suggested LIVE hosts to invite you to co-host in LIVE": "On",
+        "Allow viewers to request to go LIVE with you": "N/A",
+        "Allow viewers to see and send questions and answers in your LIVE": "N/A",
+        "Allow viewers to send you gifts during your LIVE": "N/A",
+        "Hide comments that contain the following keywords from your LIVE": [],
+        "Hide potential spam or offensive comments from your LIVE": "N/A",
+        "People you assigned to moderate your LIVE": [],
+        "Show your username and gift information in features with ranking lists": "Off"
+      }
+    },
+    "Watch Live History": {
+      "WatchLiveMap": {}
+    },
+    "Watch Live Settings": {
+      "WatchLiveSettingsMap": {
+        "app": "N/A",
+        "web": "N/A"
+      },
+      "MostRecentModificationTimeInApp": "0",
+      "MostRecentModificationTimeInWeb": "0"
+    }
+  },
+  "Your Activity": {
+    "Favorite Effects": {
+      "FavoriteEffectsList": null
+    },
+    "Favorite Hashtags": {
+      "FavoriteHashtagList": null
+    },
+    "Favorite Sounds": {
+      "FavoriteSoundList": null
+    },
+    "Favorite Videos": {
+      "App": 1,
+      "FavoriteVideoList": null
+    },
+    "Follower": {
+      "App": 1,
+      "IsFastLane": false,
+      "FansList": null
+    },
+    "Following": {
+      "App": 1,
+      "IsFastLane": false,
+      "Following": null
+    },
+    "Hashtag": {
+      "HashtagList": null
+    },
+    "Like List": {
+      "App": 1,
+      "ItemFavoriteList": [
+        {
+          "date": "2024-12-15 19:03:14",
+          "link": "https://www.tiktokv.com/share/video/7200255970008861998/"
+        }
+      ]
+    },
+    "Login History": {
+      "LoginHistoryList": null
+    },
+    "Purchases": {
+      "SendGifts": {
+        "SendGifts": null
+      },
+      "BuyGifts": {
+        "BuyGifts": null
+      }
+    },
+    "Searches": {
+      "SearchList": [
+        {
+          "Date": "2024-12-15 19:02:48",
+          "SearchTerm": "minigames"
+        },
+        {
+          "Date": "2024-12-15 19:02:47",
+          "SearchTerm": "minigames"
+        },
+        {
+          "Date": "2024-12-15 19:02:45",
+          "SearchTerm": "minigames"
+        },
+        {
+          "Date": "2024-12-15 19:02:44",
+          "SearchTerm": "minigames"
+        }
+      ]
+    },
+    "Share History": {
+      "ShareHistoryList": null
+    },
+    "Status": {
+      "Status List": [
+        {
+          "Resolution": "412x732",
+          "App Version": "",
+          "IDFA": "",
+          "GAID": "",
+          "Android ID": "",
+          "IDFV": "",
+          "Web ID": ""
+        }
+      ]
+    },
+    "Watch History": {
+      "VideoList": [
+        {
+          "Date": "2024-12-15 18:43:41",
+          "Link": "https://www.tiktokv.com/share/video/7424885637381131563/"
+        },
+        {
+          "Date": "2024-12-15 19:01:51",
+          "Link": "https://www.tiktokv.com/share/video/7446620055594356014/"
+        },
+        {
+          "Date": "2024-12-15 19:02:34",
+          "Link": "https://www.tiktokv.com/share/video/7445388993748815150/"
+        },
+        {
+          "Date": "2024-12-15 19:02:49",
+          "Link": "https://www.tiktokv.com/share/video/7163291963314146566/"
+        },
+        {
+          "Date": "2024-12-15 19:02:59",
+          "Link": "https://www.tiktokv.com/share/video/7180020506983419182/"
+        },
+        {
+          "Date": "2024-12-15 19:03:00",
+          "Link": "https://www.tiktokv.com/share/video/7159078213849746693/"
+        },
+        {
+          "Date": "2024-12-15 19:03:02",
+          "Link": "https://www.tiktokv.com/share/video/7219140659964398891/"
+        },
+        {
+          "Date": "2024-12-15 19:03:05",
+          "Link": "https://www.tiktokv.com/share/video/7160382081359531270/"
+        },
+        {
+          "Date": "2024-12-15 19:03:07",
+          "Link": "https://www.tiktokv.com/share/video/7391083708666662174/"
+        },
+        {
+          "Date": "2024-12-15 19:03:08",
+          "Link": "https://www.tiktokv.com/share/video/7200255970008861998/"
+        },
+        {
+          "Date": "2024-12-15 19:03:10",
+          "Link": "https://www.tiktokv.com/share/video/7200255970008861998/"
+        },
+        {
+          "Date": "2024-12-15 19:03:19",
+          "Link": "https://www.tiktokv.com/share/video/7200255970008861998/"
+        },
+        {
+          "Date": "2024-12-15 19:03:23",
+          "Link": "https://www.tiktokv.com/share/video/7447849616705326353/"
+        },
+        {
+          "Date": "2024-12-15 19:03:24",
+          "Link": "https://www.tiktokv.com/share/video/6942438969401445638/"
+        },
+        {
+          "Date": "2024-12-15 19:03:27",
+          "Link": "https://www.tiktokv.com/share/video/7448684971457301791/"
+        },
+        {
+          "Date": "2024-12-15 19:03:28",
+          "Link": "https://www.tiktokv.com/share/video/7448684971457301791/"
+        },
+        {
+          "Date": "2024-12-15 19:07:27",
+          "Link": "https://www.tiktokv.com/share/video/7438700023229074721/"
+        },
+        {
+          "Date": "2024-12-15 19:07:30",
+          "Link": "https://www.tiktokv.com/share/video/7420104946231577888/"
+        }
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,34 @@
+Burp Suite Configuration for Intercepting TikTok Mini-Game Traffic
+
+Tool: Burp Suite Community Edition v2023.7.1
+Platform: macOS with Android Emulator (Genymotion ARM build)
+
+1. Proxy Setup:
+   - Set Burp Suite to listen on port 8080.
+   - Enabled invisible proxy support.
+   - Enabled intercept and logging.
+
+2. Mobile Configuration:
+   - Configured the Android emulator Wi-Fi to use manual proxy: IP address of the host machine and port 8080.
+   - Installed Burp CA certificate into the Android emulator for HTTPS interception.
+
+3. Target Scope:
+   - Included TikTok domains such as:
+     - `*.tiktok.com`
+     - `*.byteoversea.com`
+     - `*.tiktokcdn.com`
+   - Focused on mini-game specific endpoints such as:
+     - `/effect/api/category/effects`
+     - `/tfe/api/request_combine/v1/`
+     - `/webcast/room/live_podcast`
+
+4. Analysis Notes:
+   - Dynamically loaded JavaScript was reviewed for APIs like:
+     - `x.ScanCode`, `getPhotoAlbumAuth`, `x.showLoading`
+   - Sensitive traffic such as camera usage and gesture handling was recorded.
+   - Noted presence/absence of third-party calls.
+
+5. JS Miner:
+   - Installed from PortSwigger BApp Store.
+   - Used to highlight potentially sensitive JavaScript behavior (API calls, trackers).
+   - All flagged results manually reviewed to remove false positives.

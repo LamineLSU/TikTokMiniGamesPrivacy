@@ -1,0 +1,28 @@
+ChatGPT Prompt Engineering Summary for Descriptive & Network Analysis
+
+Model Used: ChatGPT-4o (OpenAI)
+Interface: Web UI (Pro version) and API during development
+
+General Strategy:
+Prompts were crafted to compare behavior across network traffic, policy documents, and gameplay. Each prompt was tested, iterated, and refined to produce actionable, detailed responses. The final prompts were optimized for clarity and consistency.
+
+Examples of Refined Prompts:
+
+1. Policy vs Behavior Analysis:
+"Based on the network traffic logs and TikTok’s privacy policy, clearly identify which types of user data were collected during mini-game interactions but not disclosed in the policy. Classify each as disclosed, ambiguous, or omitted."
+
+2. Sensitive Data Discovery:
+"From this JavaScript payload and response body, identify any user-facing or behavioral data that might be considered sensitive under GDPR. Explain what API or trigger collected it."
+
+3. API Endpoint Examination:
+"Review the following endpoints and determine what privacy-relevant data is transmitted and whether it involves device sensors, facial tracking, or location data."
+
+4. Privacy Risk Summarization:
+"Given the gameplay interaction pattern (e.g., face tracking, gesture input), what privacy risks arise when users are not explicitly informed?"
+
+Manual Validation:
+- Responses were compared against actual Burp Suite packet captures.
+- Confirmed JS payloads and API function mapping.
+- Validated privacy gaps reported by ChatGPT with Privacify summaries.
+
+

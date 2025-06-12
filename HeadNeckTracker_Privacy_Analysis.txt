@@ -1,0 +1,14 @@
+
+Privacy Impact Analysis: HeadNeckTracker Script
+
+The `HeadNeckTracker` script is a real-time AR component used to animate head and neck joint chains based on a combination of live facial tracking and device sensor data. It integrates with TikTok’s internal systems to capture the user’s head position and motion, applying the calculated orientation to virtual 3D bones. While technically powerful and useful for avatar animation or immersive effects, the script introduces several key privacy concerns.
+
+Firstly, the script automatically accesses the user’s front-facing camera for face detection and tracking. This begins as soon as the effect initializes, without providing any form of explicit user consent or notification. The camera feed is processed internally to derive facial landmarks and positional orientation, which is then applied to animate virtual elements. This qualifies as biometric data processing and creates a scenario where sensitive user data is being inferred without disclosure.
+
+Secondly, the script activates motion sensors on the device, specifically the gyroscope, to further refine how joint orientation is applied. This data is captured using a sensor agent created through the platform’s `Input` system. It continuously collects rotation data and uses quaternion calculations to simulate head tilt and direction. Like camera access, this sensor usage is handled entirely in the background, and users are not informed that their motion data is being used in real time.
+
+In addition to passive data collection, the script dynamically toggles the visibility of rendered objects based on whether a face is detected or not. If no face is found, the renderers are disabled; if a face appears, tracking resumes. This mechanism again functions silently and without any interface cues. The use of real-time face detection without user awareness is a key concern, as users are unlikely to understand when tracking is occurring or how the visual elements are reacting to their behavior.
+
+Moreover, while debugging logs such as `console.log()` are used to print internal states (e.g., camera name, joint group structure, tracking availability), these logs could unintentionally reveal system behaviors or identifiers if captured in analytics pipelines. While not inherently sensitive on their own, they may contribute to indirect data exposure if not properly sanitized in production.
+
+In summary, the `HeadNeckTracker` script performs live biometric and behavioral tracking through facial detection and motion sensors without any user-facing privacy notice or opt-in mechanism. It assumes implicit consent and operates silently in the background, exposing the user to privacy risks tied to real-time data inference. To improve privacy protections, the script should be paired with clear permission prompts, tracking indicators, and user controls to enable informed consent before data collection begins.
